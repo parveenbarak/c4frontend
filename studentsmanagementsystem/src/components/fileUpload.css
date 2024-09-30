@@ -1,0 +1,21 @@
+.uploadContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.uploadProgress {
+  width: 100%;
+  height: 30px;
+  background-color: lightgray;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progressBar {
+  height: 100%;
+  background-color: green;
+  text-align: center;
+  color: white;
+}
